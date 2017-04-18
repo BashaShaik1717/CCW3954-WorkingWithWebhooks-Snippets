@@ -6,3 +6,5 @@ payloadObject.commits.forEach(function (commit) {
     message += "Author: "  + commit.author.email + "\n"; 
     message += "------------------------------------\n"; 
 }); 
+
+workflow.scratchpad.message = message; 
