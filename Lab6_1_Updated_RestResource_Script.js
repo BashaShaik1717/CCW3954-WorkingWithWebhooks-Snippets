@@ -17,7 +17,7 @@ if (request.getHeader('X-Hub-Signature') == 'sha1=' + hmac) {
     grWebhook.source  = 'GitHub'; 
     grWebhook.id      = request.getHeader('X-GitHub-Delivery');
     grWebhook.action  = request.getHeader('X-GitHub-Event'); 
-    grWebhook.payload = request.body.dataString;
+    grWebhook.payload = body;
     grWebhook.insert(); 
 
 } else {
