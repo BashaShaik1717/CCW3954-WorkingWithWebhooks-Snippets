@@ -1,2 +1,3 @@
-# CCW3954-WorkingWithWebhooks-Snippets
-Code Snippets for CCW3954 - Working with Webhooks
+# Code Snippets
+
+This repository contains code snippets for CreatorCon lab CCW3954 - Working with Webhooks.  
